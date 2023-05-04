@@ -1,6 +1,8 @@
 # Chat-Application
 A chat application made using HTML, CSS, JavaScript and NodeJS where two or more people can connect and communicate with each other.
 
+NOTE: Initialize npm modules in the nodeServer folder.
+
 Screenshots:
 
 ![image](https://user-images.githubusercontent.com/102346627/236183613-ebba98e4-348d-4953-bad9-799bed678b87.png)
