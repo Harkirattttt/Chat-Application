@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(24, 5, 48);
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background:rgb(24, 5, 48);
+    border-radius: 14px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(63, 59, 59);
+    border-radius: 14px;
+}
+
+.container{
+    background-color: rgb(12, 0, 29);
+    height: 75vh;
+    border-radius: 14px;
+    width: 60vw;
+    padding: 20px 0;
+    position: relative;
+    box-shadow: 0 0 10px 0;
+}
+
+.msgCont{
+    height: 89%;
+    overflow-y: scroll;
+    border-bottom: 1px solid aqua;
+}
+
+.typeCont{
+    display: flex;
+    align-items: center;
+    text-align:  left;
+    width: 95%;
+    height: 25px;
+    color: aqua;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+
+#typing{
+    font-weight: 400;
+}
+
+.message{
+    width: auto;
+    max-width: 40%;
+    height: auto;
+    overflow-wrap: break-word;
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+
+.left{
+    color: rgb(10, 165, 165);
+    margin-left: 15px;
+    background-color: rgb(36, 7, 73);
+    float: left;
+    clear: both;
+}
+
+.right{
+    margin-right: 15px;
+    float: right;
+    background-color: rgb(5, 59, 27);
+    color: rgb(3, 192, 82);
+    clear: both;
+}
+
+.middle{
+    background-color: rgb(10, 165, 165);
+    text-align: center;
+    width: 80%;
+    clear: both;
+}
+
+#msgForm{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    margin: auto;
+}
+
+#msgInp{
+    width: 65%;
+    border: none;
+    border-radius: 14px;
+    padding: 0 13px;
+    outline: none;
+    color: aqua;
+    height: 30px;
+    margin-right: 2px;
+    background-color: rgb(32, 9, 63);
+    caret-color: aqua;
+}
+
+#btn{
+    padding: 8px 10px;
+    font-weight: 700;
+    border: none;
+    background-color: rgb(5, 71, 31);
+    color: white;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+#btn:hover{
+    color: rgb(3, 247, 105);
+}
+
+h2{
+    padding: 20px 0;
+    color: rgb(13, 168, 168);
+}
+
+@media screen and (min-width:1100px) {
+    #msgInp{
+        width: 80%;
+        margin-right: 5px;
+    }
+    #btn{
+        padding: 8px 20px;
+    }
+}
+
+@media screen and (min-width:551) {
+    #msgInp{
+        width: 70%;
+        margin-right: 5px;
+    }
+    #btn{
+        padding: 8px 20px;
+    }
+}
